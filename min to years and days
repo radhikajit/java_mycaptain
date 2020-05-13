@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Main{
+public static void main(String[]args){
+Scanner obj=new Scanner(System.in);
+System.out.println("enter minutes");
+int n=obj.nextInt();
+int year=n/(60*24*365);
+int days=(n-(year*60*24*365))/(60*24);
+System.out.println(year + " years "+days+" days");
+  }
+}
